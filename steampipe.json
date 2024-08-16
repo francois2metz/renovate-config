@@ -3,6 +3,9 @@
   "extends": [
     "config:recommended"
   ],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
   "minimumReleaseAge": "3 days",
   "constraints": {
     "go": "1.22"
