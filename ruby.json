@@ -1,0 +1,14 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended"
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
+  "minimumReleaseAge": "3 days",
+  "lockFileMaintenance": {
+    "automerge": true,
+    "enabled": true
+  }
+}
